@@ -17,7 +17,7 @@ from logging import debug
 ADDR = '192.168.11.30'
 PORT = 8000
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 
 
 class RemoteKill(Exception):
