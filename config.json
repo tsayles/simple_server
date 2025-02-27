@@ -1,5 +1,6 @@
 {
   "Button_Box_Version": "0.0.2",
+  "Refresh_Config_Sec": 600,
   "Buttons": [
     {
       "Name": "Button 1",
@@ -80,16 +81,6 @@
       "Name": "Button 16",
       "Color": "#A52A2A",
       "Action": "https://192.168.11.30:8000/button16"
-    },
-    {
-      "Name": "Button 17",
-      "Color": "#8A2BE2",
-      "Action": "https://192.168.11.30:8000/button17"
-    },
-    {
-      "Name": "Button 18",
-      "Color": "#5F9EA0",
-      "Action": "https://192.168.11.30:8000/button18"
     }
   ]
 }

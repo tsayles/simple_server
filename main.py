@@ -62,6 +62,35 @@ class ConfigHandler(http.server.SimpleHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(b'Not Found')
 
+    def do_POST(self):
+
+
+        if self.path == '/WiFi_Report':
+            # the Button Box is reporting it's current RSSI
+            content_length = int(self.headers['Content-Length'])
+            post_data = self.rfile.read(content_length)
+            print(post_data.decode())
+            # TODO: validate the reported data and log for future analysis
+            self.send_response(200)
+            self.end_headers()
+            self.wfile.write(b'POST request received')
+
+        elif self.path == '/WiFi_Scan_Report':
+            # the Button Box is reporting a list of available networks
+            # and their RSSI
+            content_length = int(self.headers['Content-Length'])
+            post_data = self.rfile.read(content_length)
+            print(post_data.decode())
+            # TODO: validate the reported data and log for future analysis
+            self.send_response(200)
+            self.end_headers()
+            self.wfile.write(b'POST request received')
+
+        else:
+            self.send_response(404)
+            self.end_headers()
+            self.wfile.write(b'Not Found')
+
 def main():
     # print a start up message with the version number and url
     print(f"Starting simple server version {VERSION}")
