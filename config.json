@@ -1,0 +1,95 @@
+{
+  "Button_Box_Version": "0.0.1",
+  "Buttons": [
+    {
+      "Name": "Button 1",
+      "Color": "#FF0000",
+      "Action": "https://192.168.11.30:8000/button1"
+    },
+    {
+      "Name": "Button 2",
+      "Color": "#00FF00",
+      "Action": "https://192.168.11.30:8000/button2"
+    },
+    {
+      "Name": "Button 3",
+      "Color": "#0000FF",
+      "Action": "https://192.168.11.30:8000/button3"
+    },
+    {
+      "Name": "Button 4",
+      "Color": "#FFFF00",
+      "Action": "https://192.168.11.30:8000/button4"
+    },
+    {
+      "Name": "Button 5",
+      "Color": "#FF00FF",
+      "Action": "https://192.168.11.30:8000/button5"
+    },
+    {
+      "Name": "Button 6",
+      "Color": "#00FFFF",
+      "Action": "https://192.168.11.30:8000/button6"
+    },
+    {
+      "Name": "Button 7",
+      "Color": "#800000",
+      "Action": "https://192.168.11.30:8000/button7"
+    },
+    {
+      "Name": "Button 8",
+      "Color": "#008000",
+      "Action": "https://192.168.11.30:8000/button8"
+    },
+    {
+      "Name": "Button 9",
+      "Color": "#000080",
+      "Action": "https://192.168.11.30:8000/button9"
+    },
+    {
+      "Name": "Button 10",
+      "Color": "#808000",
+      "Action": "https://192.168.11.30:8000/button10"
+    },
+    {
+      "Name": "Button 11",
+      "Color": "#800080",
+      "Action": "https://192.168.11.30:8000/button11"
+    },
+    {
+      "Name": "Button 12",
+      "Color": "#008080",
+      "Action": "https://192.168.11.30:8000/button12"
+    },
+    {
+      "Name": "Button 13",
+      "Color": "#C0C0C0",
+      "Action": "https://192.168.11.30:8000/button13"
+    },
+    {
+      "Name": "Button 14",
+      "Color": "#808080",
+      "Action": "https://192.168.11.30:8000/button14"
+    },
+    {
+      "Name": "Button 15",
+      "Color": "#FFA500",
+      "Action": "https://192.168.11.30:8000/button15"
+    },
+    {
+      "Name": "Button 16",
+      "Color": "#A52A2A",
+      "Action": "https://192.168.11.30:8000/button16"
+    },
+    {
+      "Name": "Button 17",
+      "Color": "#8A2BE2",
+      "Action": "https://192.168.11.30:8000/button17"
+    },
+    {
+      "Name": "Button 18",
+      "Color": "#5F9EA0",
+      "Action": "https://192.168.11.30:8000/button18"
+    }
+  ]
+}
